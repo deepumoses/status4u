@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+
+/*mobile*/
+
+/*.logo{
+		text-align: center;
+		display: block;
+		width: 100%;
+		transition: all 5s;
+	}
+
+	.logo .logoimg{
+		margin:20px auto;
+		width:340px;
+		height:100px;
+		background : url('../images/Logo-poly-bw.png') no-repeat;
+		-webkit-transition: background .5s ease-in-out;
+	       -moz-transition: background .5s ease-in-out;
+	        -ms-transition: background .5s ease-in-out;
+	         -o-transition: background .5s ease-in-out;
+	            transition: background .5s ease-in-out;
+	}
+
+	.logo .logoimg:hover{
+		background : url('../images/Logo-poly-teal.png') no-repeat;
+	}
+.row .box{
+		color: #2C3A47;
+		position: relative;
+		width: 80%;
+		max-width:200px;
+		height: 200px;
+		display: block;
+		margin: 30px auto;
+		background-color: #fff;
+		padding:10px;
+		cursor: pointer;
+		border-radius: 15px;
+		-webkit-transition: all .5s ease-in-out;
+	       -moz-transition: all .5s ease-in-out;
+	        -ms-transition: all .5s ease-in-out;
+	         -o-transition: all .5s ease-in-out;
+	            transition: all .5s ease-in-out;
+		box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.10);
+	}
+	.row .box:hover{
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}*/
+
+
+
+/*desktop*/
+@media only screen and (min-width: 768px) {
+	/*body*/
+	body{
+		background-color: #fff;
+		margin: 0;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	a{
+		color:#2C3A47;
+		text-decoration: none;
+	}
+
+	/*Header*/
+
+	.header{
+		width: 100%;
+		height: auto;
+		color: #2C3A47;
+		font-size:35px;
+	}
+	.logo{
+		text-align: center;
+		display: block;
+		width: 100%;
+		transition: all 5s;
+	}
+
+	.logo .logoimg{
+		margin:20px auto;
+		width:0px;
+		height:0px;
+		background : url('../images/Logo-poly-bw.png') no-repeat;
+		-webkit-transition: all .5s ease-in-out;
+	       -moz-transition: all .5s ease-in-out;
+	        -ms-transition: all .5s ease-in-out;
+	         -o-transition: all .5s ease-in-out;
+	            transition: all .5s ease-in-out;
+
+	}
+
+	.logo .logoimg:hover{
+		background : url('../images/Logo-poly-teal.png') no-repeat;
+	}
+	/*content*/
+
+
+	.container{
+		margin: 0 10px;
+		width: 100%;
+		padding:10px;
+		color: #2C3A47;
+	}
+
+	.box-container{
+		/*margin: 20px 200px;*/
+		font-weight: 300;
+		font-size : 20px;
+	}
+
+	.row{
+		display: block;
+		width: fit-content;
+		width: -moz-fit-content;
+		padding: 25px 25px;
+		margin:0 auto;
+	}
+
+	.row .box{
+		color: #2C3A47;
+		position: relative;
+		width: 241px;
+		height: 200px;
+		display: inline-block;
+		margin-right: 30px;
+		background-color: #fff;
+		padding:10px;
+		cursor: pointer;
+		border-radius: 15px;
+		transition: all .5s ease-in-out;
+		box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.10);
+	}
+
+	.row .box:hover{
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+
+	.row .box:last-child{
+		margin-right:0px !important;
+	}
+
+	.row .love{
+		opacity: 0;
+/*		transition: opacity .5s ease-in-out;
+*/		background: url('../images/black-heart.png') no-repeat 50% 15%;
+	}
+	.row .love:hover{
+		color: #E74C3C;
+		background: url('../images/red-heart.png') no-repeat 50% 15%;
+	}
+	.row .friendship{
+		opacity: 0;
+/*		transition: opacity 1s ease-in-out;
+*/		background: url('../images/black-heart.png') no-repeat 50% 15%;
+	}
+	.row .friendship:hover{
+		color: #50C878;
+		background: url('../images/red-heart.png') no-repeat 50% 15%;
+	}
+	.row .funny{
+		opacity: 0;
+/*		transition: opacity 1.5s ease-in-out;
+*/		background: url('../images/black-heart.png') no-repeat 50% 15%;
+	}
+	.row .funny:hover{
+		color: #FFEB3B;
+		background: url('../images/red-heart.png') no-repeat 50% 15%;
+	}
+	.row .sad{
+		opacity: 0;
+/*		transition: opacity 2s ease-in-out;
+*/		background: url('../images/black-heart.png') no-repeat 50% 15%;
+	}
+	.row .sad:hover{
+		color: #607d8b;
+		background: url('../images/red-heart.png') no-repeat 50% 15%;
+	}
+	.row .cute{
+		opacity: 0;
+/*		transition: opacity 2.5s ease-in-out;
+*/		background: url('../images/black-heart.png') no-repeat 50% 15%;
+	}
+	.row .cute:hover{
+		color: #e91e63;
+		background: url('../images/red-heart.png') no-repeat 50% 15%;
+	}
+	.row .cool{
+		opacity: 0;
+/*		transition: opacity 3s ease-in-out;
+*/		background: url('../images/black-heart.png') no-repeat 50% 15%;
+	}
+	.row .cool:hover{
+		color: #2196f3;
+		background: url('../images/red-heart.png') no-repeat 50% 15%;
+	}
+	.row .motivational{
+		opacity: 0;
+/*		transition: opacity 3.5s ease-in-out;
+*/		background: url('../images/black-heart.png') no-repeat 50% 15%;
+	}
+	.row .motivational:hover{
+		color: #009688;
+		background: url('../images/red-heart.png') no-repeat 50% 15%;
+	}
+	.row .sarcastic{
+		opacity: 0;
+/*		transition: opacity 4s ease-in-out;
+*/		background: url('../images/black-heart.png') no-repeat 50% 15%;
+	}
+	.row .sarcastic:hover{
+		color: #3f51b5;
+		background: url('../images/red-heart.png') no-repeat 50% 15%;
+	}
+	.row .religious{
+		opacity: 0;
+/*		transition: opacity 4.5s ease-in-out;
+*/		background: url('../images/black-heart.png') no-repeat 50% 15%;
+	}
+	.row .religious:hover{
+		color: #ff9800;
+		background: url('../images/red-heart.png') no-repeat 50% 15%;
+	}
+	.row .box .box-text{
+		position: absolute;
+	    display: inline-block;
+	    bottom: 5px;
+	    font-weight: 400;
+	    width: 90%;
+	    text-align: center;
+	}
+
+	/*Footer*/
+	.footer{
+		width:100%;
+		background-color: #252f38;
+		padding:20px;
+		color:#fff !important;
+		overflow: auto;
+	}
+
+	.footer a{
+		color:#fff !important;
+		font-weight: 300;
+	}
+	.footer-left{
+		float: left;
+	}
+
+	.footer-right{
+		float: right;
+	}
+
+	.footer-left ul{
+		list-style-type: none;
+	}
+}
