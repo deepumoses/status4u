@@ -131,11 +131,11 @@
 		cursor: pointer;
 		border-radius: 15px;
 		transition: all .5s ease-in-out;
-		box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.10);
+		/*box-shadow: 0 2px 4px 0 rgba(231, 76, 60, 0.1), 0 1px 5px 0 rgba(231, 76, 60, 0.10);*/
 	}
 
 	.row .box:hover{
-		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		/*box-shadow: 0 4px 8px 0 rgba(231, 76, 60, 0.2), 0 6px 20px 0 rgba(231, 76, 60, 0.19);*/
 	}
 
 	.row .box:last-child{
@@ -144,66 +144,84 @@
 
 	.row .love{
 		background: url('../images/black-heart.png') no-repeat 50% 15%;
+		box-shadow: 0 2px 4px 0 rgba(231, 76, 60, 0.2), 0 1px 5px 0 rgba(231, 76, 60, 0.10);
 	}
 	.row .love:hover{
 		color: #E74C3C;
 		background: url('../images/red-heart.png') no-repeat 50% 15%;
+		box-shadow: 0 4px 8px 0 rgba(231, 76, 60, 0.5), 0 6px 20px 0 rgba(231, 76, 60, 0.19);
 	}
 	.row .friendship{
-		background: url('../images/black-heart.png') no-repeat 50% 15%;
+		background: url('../images/friendship_nocolor.png') no-repeat 50% 15%;
+		box-shadow: 0 2px 4px 0 rgba(80, 200, 120, 0.1), 0 1px 5px 0 rgba(80, 200, 120, 0.10);
 	}
 	.row .friendship:hover{
 		color: #50C878;
-		background: url('../images/red-heart.png') no-repeat 50% 15%;
+		background: url('../images/friendship_color.png') no-repeat 50% 15%;
+		box-shadow: 0 4px 8px 0 rgba(80, 200, 120, 0.2), 0 6px 20px 0 rgba(80, 200, 120, 0.19);
 	}
 	.row .funny{
-		background: url('../images/black-heart.png') no-repeat 50% 15%;
+		background: url('../images/funny_nocolor.png') no-repeat 50% 15%;
+		box-shadow: 0 2px 4px 0 rgba(231, 76, 60, 0.1), 0 1px 5px 0 rgba(231, 76, 60, 0.10);
 	}
 	.row .funny:hover{
 		color: #FFEB3B;
-		background: url('../images/red-heart.png') no-repeat 50% 15%;
+		background: url('../images/funny_color.png') no-repeat 50% 15%;
+		box-shadow: 0 4px 8px 0 rgba(231, 76, 60, 0.2), 0 6px 20px 0 rgba(231, 76, 60, 0.19);
 	}
 	.row .sad{
 		background: url('../images/black-heart.png') no-repeat 50% 15%;
+		box-shadow: 0 2px 4px 0 rgba(231, 76, 60, 0.1), 0 1px 5px 0 rgba(231, 76, 60, 0.10);
 	}
 	.row .sad:hover{
 		color: #607d8b;
 		background: url('../images/red-heart.png') no-repeat 50% 15%;
+		box-shadow: 0 4px 8px 0 rgba(231, 76, 60, 0.2), 0 6px 20px 0 rgba(231, 76, 60, 0.19);
 	}
 	.row .cute{
 		background: url('../images/Cute_NoColor.png') no-repeat 50% 15%;
+		box-shadow: 0 2px 4px 0 rgba(231, 76, 60, 0.1), 0 1px 5px 0 rgba(231, 76, 60, 0.10);
 	}
 	.row .cute:hover{
 		color: #e91e63;
 		background: url('../images/Cute_Color.png') no-repeat 50% 15%;
+		box-shadow: 0 4px 8px 0 rgba(231, 76, 60, 0.2), 0 6px 20px 0 rgba(231, 76, 60, 0.19);
 	}
 	.row .cool{
 		background: url('../images/cool_nocolor.png') no-repeat 50% 15%;
+		box-shadow: 0 2px 4px 0 rgba(231, 76, 60, 0.1), 0 1px 5px 0 rgba(231, 76, 60, 0.10);
 	}
 	.row .cool:hover{
 		color: #2196f3;
 		background: url('../images/cool_color.png') no-repeat 50% 15%;
+		box-shadow: 0 4px 8px 0 rgba(231, 76, 60, 0.2), 0 6px 20px 0 rgba(231, 76, 60, 0.19);
 	}
 	.row .motivational{
 		background: url('../images/Motivational_NoColor.png') no-repeat 50% 15%;
+		box-shadow: 0 2px 4px 0 rgba(231, 76, 60, 0.1), 0 1px 5px 0 rgba(231, 76, 60, 0.10);
 	}
 	.row .motivational:hover{
 		color: #009688;
 		background: url('../images/Motivational_Color.png') no-repeat 50% 15%;
+		box-shadow: 0 4px 8px 0 rgba(231, 76, 60, 0.2), 0 6px 20px 0 rgba(231, 76, 60, 0.19);
 	}
 	.row .sarcastic{
 		background: url('../images/black-heart.png') no-repeat 50% 15%;
+		box-shadow: 0 2px 4px 0 rgba(231, 76, 60, 0.1), 0 1px 5px 0 rgba(231, 76, 60, 0.10);
 	}
 	.row .sarcastic:hover{
 		color: #3f51b5;
 		background: url('../images/red-heart.png') no-repeat 50% 15%;
+		box-shadow: 0 4px 8px 0 rgba(231, 76, 60, 0.2), 0 6px 20px 0 rgba(231, 76, 60, 0.19);
 	}
 	.row .religious{
 		background: url('../images/Religion_NoColor.png') no-repeat 50% 15%;
+		box-shadow: 0 2px 4px 0 rgba(231, 76, 60, 0.1), 0 1px 5px 0 rgba(231, 76, 60, 0.10);
 	}
 	.row .religious:hover{
 		color: #ff9800;
 		background: url('../images/Religion_Color.png') no-repeat 50% 15%;
+		box-shadow: 0 4px 8px 0 rgba(231, 76, 60, 0.2), 0 6px 20px 0 rgba(231, 76, 60, 0.19);
 	}
 	.row .box .box-text{
 		position: absolute;
