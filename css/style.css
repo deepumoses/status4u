@@ -143,85 +143,67 @@
 	}
 
 	.row .love{
-		opacity: 0;
-/*		transition: opacity .5s ease-in-out;
-*/		background: url('../images/black-heart.png') no-repeat 50% 15%;
+		background: url('../images/black-heart.png') no-repeat 50% 15%;
 	}
 	.row .love:hover{
 		color: #E74C3C;
 		background: url('../images/red-heart.png') no-repeat 50% 15%;
 	}
 	.row .friendship{
-		opacity: 0;
-/*		transition: opacity 1s ease-in-out;
-*/		background: url('../images/black-heart.png') no-repeat 50% 15%;
+		background: url('../images/black-heart.png') no-repeat 50% 15%;
 	}
 	.row .friendship:hover{
 		color: #50C878;
 		background: url('../images/red-heart.png') no-repeat 50% 15%;
 	}
 	.row .funny{
-		opacity: 0;
-/*		transition: opacity 1.5s ease-in-out;
-*/		background: url('../images/black-heart.png') no-repeat 50% 15%;
+		background: url('../images/black-heart.png') no-repeat 50% 15%;
 	}
 	.row .funny:hover{
 		color: #FFEB3B;
 		background: url('../images/red-heart.png') no-repeat 50% 15%;
 	}
 	.row .sad{
-		opacity: 0;
-/*		transition: opacity 2s ease-in-out;
-*/		background: url('../images/black-heart.png') no-repeat 50% 15%;
+		background: url('../images/black-heart.png') no-repeat 50% 15%;
 	}
 	.row .sad:hover{
 		color: #607d8b;
 		background: url('../images/red-heart.png') no-repeat 50% 15%;
 	}
 	.row .cute{
-		opacity: 0;
-/*		transition: opacity 2.5s ease-in-out;
-*/		background: url('../images/black-heart.png') no-repeat 50% 15%;
+		background: url('../images/Cute_NoColor.png') no-repeat 50% 15%;
 	}
 	.row .cute:hover{
 		color: #e91e63;
-		background: url('../images/red-heart.png') no-repeat 50% 15%;
+		background: url('../images/Cute_Color.png') no-repeat 50% 15%;
 	}
 	.row .cool{
-		opacity: 0;
-/*		transition: opacity 3s ease-in-out;
-*/		background: url('../images/black-heart.png') no-repeat 50% 15%;
+		background: url('../images/cool_nocolor.png') no-repeat 50% 15%;
 	}
 	.row .cool:hover{
 		color: #2196f3;
-		background: url('../images/red-heart.png') no-repeat 50% 15%;
+		background: url('../images/cool_color.png') no-repeat 50% 15%;
 	}
 	.row .motivational{
-		opacity: 0;
-/*		transition: opacity 3.5s ease-in-out;
-*/		background: url('../images/black-heart.png') no-repeat 50% 15%;
+		background: url('../images/Motivational_NoColor.png') no-repeat 50% 15%;
 	}
 	.row .motivational:hover{
 		color: #009688;
-		background: url('../images/red-heart.png') no-repeat 50% 15%;
+		background: url('../images/Motivational_Color.png') no-repeat 50% 15%;
 	}
 	.row .sarcastic{
-		opacity: 0;
-/*		transition: opacity 4s ease-in-out;
-*/		background: url('../images/black-heart.png') no-repeat 50% 15%;
+		background: url('../images/black-heart.png') no-repeat 50% 15%;
 	}
 	.row .sarcastic:hover{
 		color: #3f51b5;
 		background: url('../images/red-heart.png') no-repeat 50% 15%;
 	}
 	.row .religious{
-		opacity: 0;
-/*		transition: opacity 4.5s ease-in-out;
-*/		background: url('../images/black-heart.png') no-repeat 50% 15%;
+		background: url('../images/Religion_NoColor.png') no-repeat 50% 15%;
 	}
 	.row .religious:hover{
 		color: #ff9800;
-		background: url('../images/red-heart.png') no-repeat 50% 15%;
+		background: url('../images/Religion_Color.png') no-repeat 50% 15%;
 	}
 	.row .box .box-text{
 		position: absolute;
